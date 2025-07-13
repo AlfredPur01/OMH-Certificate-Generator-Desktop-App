@@ -1,0 +1,30 @@
+packages:
+  - '.'
+  - 'packages/*'
+
+# pnpm configuration
+prefer-workspace-packages: true
+shared-workspace-lockfile: true
+save-workspace-protocol: rolling
+
+# Node.js version requirement
+engines:
+  node: '>=18.0.0'
+  pnpm: '>=8.0.0'
+
+# Package manager settings
+package-manager: 'pnpm@8.0.0'
+
+# Workspace settings
+workspace:
+  hoist-pattern:
+    - '*'
+  public-hoist-pattern:
+    - '*eslint*'
+    - '*prettier*'
+    - '*typescript*'
+
+# Installation settings
+install:
+  frozen-lockfile: true
+  prefer-frozen-lockfile: true
