@@ -57,7 +57,7 @@ A professional, offline-capable certificate and ID card generator with precise t
 
 **macOS/Linux:**
 \`\`\`bash
-git clone https://github.com/your-username/certificate-generator.git
+git clone https://github.com/AlfredPur01/certificate-generator.git
 cd certificate-generator
 chmod +x setup.sh
 ./setup.sh
@@ -67,7 +67,7 @@ chmod +x setup.sh
 
 \`\`\`bash
 # Clone the repository
-git clone https://github.com/your-username/certificate-generator.git
+git clone https://github.com/AlfredPur01/certificate-generator.git
 cd certificate-generator
 
 # Install dependencies
